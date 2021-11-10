@@ -1,9 +1,26 @@
 {
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   },
   "properties" : {
-    "grid-size" : "regular"
-  }
+    "grid-size" : "small"
+  },
+  "stickers" : [
+    {
+      "filename" : "Christmas Tree.sticker"
+    },
+    {
+      "filename" : "gift.sticker"
+    },
+    {
+      "filename" : "mistletoe.sticker"
+    },
+    {
+      "filename" : "Rudolph.sticker"
+    },
+    {
+      "filename" : "Santa hat.sticker"
+    }
+  ]
 }

@@ -40,12 +40,14 @@
 		5EF929D4273B9D8D00E69224 /* ChristmasCheers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChristmasCheers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF929D8273B9D8E00E69224 /* ChristmasCheers StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ChristmasCheers StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF929DC273B9D8E00E69224 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "ChristmasCheers StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+		5EF929E8273BA89000E69224 /* ChristmasCheers StickerPackExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "ChristmasCheers StickerPackExtension.entitlements"; path = "ChristmasCheers StickerPackExtension/ChristmasCheers StickerPackExtension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		5EF929CD273B9D8D00E69224 = {
 			isa = PBXGroup;
 			children = (
+				5EF929E8273BA89000E69224 /* ChristmasCheers StickerPackExtension.entitlements */,
 				5EF929DC273B9D8E00E69224 /* Stickers.xcstickers */,
 				5EF929D5273B9D8D00E69224 /* Products */,
 			);
@@ -275,16 +277,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = "ChristmasCheers StickerPackExtension/ChristmasCheers StickerPackExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4K59AN948M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ChristmasCheers StickerPackExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Christmas Cheers";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tripwiretech.ChristmasCheers.StickerPackExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -294,16 +299,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = "ChristmasCheers StickerPackExtension/ChristmasCheers StickerPackExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4K59AN948M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ChristmasCheers StickerPackExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Christmas Cheers";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tripwiretech.ChristmasCheers.StickerPackExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,6 +326,11 @@
 				DEVELOPMENT_TEAM = 4K59AN948M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChristmasCheers/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Christmas Cheers";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tripwiretech.ChristmasCheers;
@@ -336,6 +349,11 @@
 				DEVELOPMENT_TEAM = 4K59AN948M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChristmasCheers/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Christmas Cheers";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tripwiretech.ChristmasCheers;
